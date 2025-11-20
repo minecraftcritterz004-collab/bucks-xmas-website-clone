@@ -48,8 +48,8 @@ const CountdownBanner = () => {
       <p className="text-foreground/90 text-[10px] mt-0.5">
         Complete the steps before access expires
       </p>
-    </div>);
-
+    </div>
+  );
 };
 
 export default CountdownBanner;

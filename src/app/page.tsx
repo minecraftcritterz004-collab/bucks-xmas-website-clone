@@ -23,6 +23,6 @@ export default function Home() {
         
         <SocialFooter />
       </main>
-    </div>);
-
+    </div>
+  );
 }
