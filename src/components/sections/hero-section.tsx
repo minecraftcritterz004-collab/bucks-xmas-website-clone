@@ -41,9 +41,9 @@ const HeroSection = () => {
       <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
         <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
         Claim Your{' '}
-        <span className="inline-flex items-center gap-1 !text-[#980f0f]">
+        <span className="inline-flex items-center gap-1 !text-[#f01010]">
           Bearista Cup
-          <Gift className="w-4 h-4 text-secondary inline-block" />
+          <Gift className="w-4 h-4 inline-block !text-[#db1311]" />
         </span>
         <br />
         for Free
