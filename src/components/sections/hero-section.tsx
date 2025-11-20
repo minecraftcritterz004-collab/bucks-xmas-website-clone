@@ -11,8 +11,8 @@ const HeroSection = () => {
             alt="Starbucks Logo"
             width={32}
             height={32}
-            className="w-full h-full object-contain drop-shadow-xl" />
-
+            className="w-full h-full object-contain drop-shadow-xl"
+          />
         </div>
         <div className="w-32 md:w-40 mx-auto">
           <Image
@@ -20,8 +20,8 @@ const HeroSection = () => {
             alt="STARBUCKS"
             width={160}
             height={35}
-            className="w-full h-auto" />
-
+            className="w-full h-auto"
+          />
         </div>
       </div>
 
@@ -32,8 +32,8 @@ const HeroSection = () => {
             alt="Bearista Holiday Cup"
             width={96}
             height={145}
-            className="w-20 mx-auto drop-shadow-2xl relative z-10 md:!w-full !h-full !max-w-full" />
-
+            className="w-20 md:w-24 h-auto mx-auto drop-shadow-2xl relative z-10"
+          />
           <div className="absolute inset-0 bg-gradient-radial from-accent/20 to-transparent blur-3xl -z-10"></div>
         </div>
       </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
       <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
         <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
         Claim Your{' '}
-        <span className="inline-flex items-center gap-1 !text-[#e46363]">
+        <span className="text-secondary inline-flex items-center gap-1">
           Bearista Cup
           <Gift className="w-4 h-4 text-secondary inline-block" />
         </span>
@@ -56,8 +56,8 @@ const HeroSection = () => {
         <span className="text-accent font-bold">$100 holiday gift card</span>
         <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
       </p>
-    </div>);
-
+    </div>
+  );
 };
 
 export default HeroSection;
