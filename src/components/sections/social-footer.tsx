@@ -23,7 +23,7 @@ const SocialFooter = () => {
           aria-label="Instagram"
           className="w-7 h-7 bg-secondary hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl">
 
-          <Instagram className="w-3 h-3 text-foreground" />
+          <Instagram className="text-foreground !w-3 !h-3" />
         </a>
       </div>
       <footer className="text-foreground/70 text-[9px]">
