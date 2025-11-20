@@ -37,11 +37,11 @@ const StepsCard = () => {
           const Icon = step.icon;
           return (
             <li key={index} className="flex items-start gap-1.5 text-[11px] md:text-xs">
-              <span className="flex-shrink-0 w-4 h-4 bg-accent/80 text-primary rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5">
+              <span className="flex-shrink-0 w-4 h-4 text-primary rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5" style={{ backgroundColor: 'hsl(40 60% 65%)' }}>
                 {index + 1}
               </span>
               <div className="flex items-center gap-1 flex-1">
-                <span className="text-accent flex-shrink-0">
+                <span className="flex-shrink-0" style={{ color: 'hsl(40 60% 65%)' }}>
                   <Icon className="w-2.5 h-2.5" />
                 </span>
                 <span className="text-foreground font-medium">{step.text}</span>
