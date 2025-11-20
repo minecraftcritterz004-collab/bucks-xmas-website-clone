@@ -7,6 +7,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Starbucks Reviewer",
   description: "Claim Your Bearista Cup",
+  icons: {
+    icon: "https://i.imgur.com/F4YVx5o.png",
+  },
 };
 
 export default function RootLayout({
