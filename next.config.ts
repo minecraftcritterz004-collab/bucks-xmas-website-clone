@@ -4,7 +4,9 @@ import path from "node:path";
 const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader.js');
 
 const nextConfig: NextConfig = {
+  output: 'export',  // Required for static export
   images: {
+    unoptimized: true,  // Required for images in static export
     remotePatterns: [
       {
         protocol: 'https',
