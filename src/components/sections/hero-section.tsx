@@ -17,7 +17,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="relative mb-1.5 animate-float">
+      <div className="relative mb-1.5 animate-float-gentle">
         <div className="relative inline-block">
           <McDonaldsGiftCard />
 
