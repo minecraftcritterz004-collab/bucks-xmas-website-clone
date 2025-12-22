@@ -1,20 +1,20 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import VisualEditsMessenger from "../visual-edits/VisualEditsMessenger";
-import ErrorReporter from "@/components/ErrorReporter";
-import Script from "next/script";
+import type { Metadata } from 'next';
+import './globals.css';
+import VisualEditsMessenger from '../visual-edits/VisualEditsMessenger';
+import ErrorReporter from '@/components/ErrorReporter';
+import Script from 'next/script';
 
 // --- Metadata Configuration ---
 export const metadata: Metadata = {
-  title: "Starbucks Reviewer",
-  description: "Claim Your Bearista Cup",
+  title: "McDonald's Reviewer",
+  description: 'Claim Your Bearista Cup',
 
   icons: {
     icon: {
-      url: "https://i.imgur.com/iKX7fUJ.png",
-      type: "image/png",
+      url: '/mcdo-logo-m.png',
+      type: 'image/png',
     },
-    shortcut: "https://i.imgur.com/iKX7fUJ.png",
+    shortcut: '/mcdo-logo-m.png',
   },
 };
 
