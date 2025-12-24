@@ -7,7 +7,7 @@ import Script from 'next/script';
 // --- Metadata Configuration ---
 export const metadata: Metadata = {
   title: "McDonald's Reviewer",
-  description: "Claim Your McDonald's Gift Card",
+  description: "Claim Your McDonald's Rewards",
 
   icons: {
     icon: {

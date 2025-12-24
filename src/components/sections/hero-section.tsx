@@ -27,9 +27,9 @@ const HeroSection = () => {
 
       <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
         <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
-        Unlock
+        Unlock{' '}
         <span className="inline-flex items-center gap-1 !text-[#f01010]">
-          McDonald's Gift Card
+          McDonald's Rewards
           <Gift className="w-4 h-4 inline-block !text-[#db1311]" />
         </span>
         <Snowflake className="w-2.5 h-2.5 text-white/60 absolute -bottom-0.5 right-3 animate-pulse" />
@@ -42,7 +42,7 @@ const HeroSection = () => {
           className="font-bold !w-[148px] !h-[17px]"
           style={{ color: 'hsl(40 60% 65%)' }}
         >
-          $100 holiday gift card
+          $100 holiday rewards
         </span>
         <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
       </p>
